@@ -1,0 +1,63 @@
+body {
+  font-family: Courier;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  color: #555;
+  background-color: #fff;
+}
+
+h1 {
+	 background-color:#44FFA4; 
+  font-family: 'Brush Script MT',cursive;
+  font-size:70px;
+  color: #000000;
+  text-align:center;
+}
+
+header {
+  background-color:#44FFA4; 
+  color: #000000;
+  text-align:center;
+}
+
+.body1{
+	 background-color:#44FFA4; 
+  color: #000000;
+  	object-fit: fill;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #000000;
+  font-size:15px;
+  text-align:right;
+}
+
+.about{
+  background-color: #59326B;
+  font-size:24px;
+  text-align:left;
+  color:white;
+  width: 100%;
+  height: 450px;
+}
+
+.services{
+  background-color:white;
+  text-align:left;
+  font-size:24px;
+  color:#59326B;
+  width: 100%;
+  float:left;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  max-width: 600px;
+}
+
+.img1 {
+	width:100%;
+}

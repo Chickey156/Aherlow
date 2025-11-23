@@ -10,15 +10,23 @@ body {
 h1 {
 	 background-color:#44FFA4; 
   font-family: 'Brush Script MT',cursive;
-  font-size:70px;
+  font-size:100px;
   color: #000000;
   text-align:center;
+  
 }
 
 header {
   background-color:#44FFA4; 
   color: #000000;
   text-align:center;
+
+}
+
+footer{
+	background-color:#000000;
+	color:#FFFFFF;
+	font-family:Arial;
 }
 
 .body1{
@@ -34,30 +42,71 @@ nav a {
   text-align:right;
 }
 
-.about{
-  background-color: #59326B;
-  font-size:24px;
+.event{
+  background-color:#59326B;
   text-align:left;
-  color:white;
+  font-size:24px;
+  font-family:Arial;
+  color:#44FFA4;
   width: 100%;
-  height: 450px;
+  float:left;
+  margin: auto;
 }
 
-.services{
-  background-color:white;
+.activities{
+  background-color:#44FFA4;
   text-align:left;
   font-size:24px;
+  font-family:Arial;
   color:#59326B;
   width: 100%;
   float:left;
   margin: auto;
 }
 
-img {
-  width: 100%;
-  max-width: 600px;
+.about{
+	text-align: center;
+	font-size:23px;
+	font-family:Arial;
+	color:#59326B;
 }
 
-.img1 {
-	width:100%;
+.img2 {
+	width: 40%;
+	height: 10%;
+	float:top;
+	float:left;
+}
+
+.img3 {
+	float:top;
+	float:right;
+	width: 40%;
+	height: 70%;
+}
+
+.img1{
+	width: 100%;
+}
+
+
+.act-btn {
+  background-color:#59326B;
+  color: white;
+  padding: 0.8em 1.5em;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 1em;
+  float:right;
+}
+.acc-btn {
+  background-color:#44FFA4;
+  color: white;
+  padding: 0.8em 1.5em;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 1em;
+  float:left;
 }

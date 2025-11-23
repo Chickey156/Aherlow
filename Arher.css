@@ -72,8 +72,7 @@ nav a {
 }
 
 .img2 {
-	width: 40%;
-	height: 10%;
+	width: 40%
 	float:top;
 	float:left;
 }
@@ -109,4 +108,5 @@ nav a {
   display: inline-block;
   margin-top: 1em;
   float:left;
+
 }
